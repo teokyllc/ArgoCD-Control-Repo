@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mysql-01
-  namespace: reference-app
+  namespace: fancy-app
 spec:
   replicas: 1
   selector:

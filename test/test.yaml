@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: example-secret
   annotations:
-    avp_path: "avp/data/test"
+    avp_path: "secrets/data/ArgoApps/Shared-Services/test"
 type: Opaque
 stringData:
   sample-secret: <sample>
